@@ -57,16 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "upload-zone": "hsl(var(--upload-zone))",
+        "upload-zone-hover": "hsl(var(--upload-zone-hover))",
+        success: "hsl(var(--success))",
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
-      },
-      colors: {
-        "upload-zone": "hsl(var(--upload-zone))",
-        "upload-zone-hover": "hsl(var(--upload-zone-hover))",
-        success: "hsl(var(--success))",
       },
       keyframes: {
         "accordion-down": {
